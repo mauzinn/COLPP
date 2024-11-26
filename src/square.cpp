@@ -16,7 +16,7 @@ bool Square::isColliding(Square _square) {
 }
 
 void Square::update(std::vector<Square> _squares, double _gravity) {
-    for (int i = 0; i < _squares.size(); i++) { // Rever desempenho dessa merda
+    for (int i = 0; i < _squares.size(); i++) { // Rever desempenho disso aqui, ta verificando em todos os quadrados
         if (!(_squares[i].position.x == Square::position.x && _squares[i].position.y == Square::position.y)) {
             Square::colliding = Square::isColliding(_squares[i]);
         }
