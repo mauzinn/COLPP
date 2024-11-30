@@ -4,13 +4,11 @@
 #include "./vector2.hpp"
 #include <vector>
 
-class Square {
-    private:
+struct Square {
     Vector2 position, size;
     Vector2 aceleration;
     bool colliding, isHeavy;
 
-    public:
     Square(Vector2, bool);
     bool isColliding(Square);
     void setPosition(Vector2);

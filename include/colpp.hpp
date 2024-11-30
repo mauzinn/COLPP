@@ -7,7 +7,7 @@
 
 class Colpp {
     private:
-    std::vector<Square> squares; //fazer bagui ce acessar saqui pq vou usar pra fazer uso ne
+    std::vector<Square> squares;
 
     public:
     int addSquare(Square);
